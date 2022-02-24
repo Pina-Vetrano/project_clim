@@ -7,13 +7,15 @@
 .school-img {
     width: 320px;
 }
-body{
+.climat{
     background-image: url(../assets/images/sunny.jpg);
+    height: 100vh;
 
 }
 h1{
     font-size: 20vmin;
     color: rgb(49, 49, 49);
+    margin: 0;
 }
 h2{
     font-size: 20px;
@@ -33,7 +35,7 @@ h4{
     margin-left: 20px;
 }
 @media (orientation:landscape){
-    body{
-    height: 100vh;
+    .climat{
+    height: 100vw;
 }
 }
