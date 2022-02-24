@@ -1,8 +1,39 @@
 @import '../../node_modules/modern-normalize/modern-normalize';
+
 @import 'utils/variables';
 @import 'components/type';
 
 
 .school-img {
     width: 320px;
+}
+body{
+    background-image: url(../assets/images/sunny.jpg);
+
+}
+h1{
+    font-size: 20vmin;
+    color: rgb(49, 49, 49);
+}
+h2{
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+}
+h4{
+    font-size: 15px;
+    color:white;
+    margin-left: 20px;
+}
+@media (orientation:landscape){
+    body{
+    height: 100vh;
+}
 }
